@@ -1,4 +1,6 @@
-﻿  king.cpp
+﻿  chess_game.cpp
+  bishop.cpp
+  king.cpp
 C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(641,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(642,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(701,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
@@ -26,6 +28,11 @@ C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(1182,28): w
 C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(1184,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(1277,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(1366,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(1389,93): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\firem\source\repos\COMP3016 opengl\COMP3016 opengl\king.cpp(1388,93): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  knight.cpp
+  queen.cpp
+  rook.cpp
+  Generating Code...
+  glad.c
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   COMP3016 opengl.vcxproj -> C:\Users\firem\source\repos\COMP3016 opengl\x64\Debug\COMP3016 opengl.exe

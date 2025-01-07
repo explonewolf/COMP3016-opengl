@@ -23,7 +23,7 @@ struct MovingPiece {
 };
 
 std::vector<MovingPiece> piecePositions;
-const float MOVE_SPEED = 1.0f; 
+const float MOVE_SPEED = 2.0f; 
 
 void handleSquareSelection(int gridX, int gridZ);
 
@@ -126,7 +126,7 @@ void printMatrix(const float* matrix, const std::string& name) {
 // Function to load a 3D model
 void loadModel(const std::string& modelName, std::vector<float>& vertices, std::vector<unsigned int>& indices) {
     std::cout << "Loading model: " << modelName << std::endl;
-    std::string filePath = "C:/Users/firem/source/repos/COMP3016 opengl/COMP3016 opengl/assets/3D/Peices/" + modelName;
+    std::string filePath = "assets/3D/Peices/" + modelName;
     Assimp::Importer importer;
     const aiScene* scene = importer.ReadFile(filePath, aiProcess_Triangulate | aiProcess_FlipUVs);
     if (!scene || scene->mFlags & AI_SCENE_FLAGS_INCOMPLETE || !scene->mRootNode) {
