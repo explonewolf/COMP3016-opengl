@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Assets">
+      <UniqueIdentifier>{16520517-0fa4-4162-b1d1-a9b8f9b1fc52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{71899fd8-bac2-46ca-960a-608d445ea07c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="backend\chess_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models\knight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models\bishop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models\rook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="king.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models\queen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\black-king.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\black-bishop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Blackboard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\black-knight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\black-pawn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\black-queen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\black-rook.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\white-bishop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Whiteboard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\white-king.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\white-knight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\white-pawn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\white-queen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\white-rook.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\white-rook.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\white-queen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\white-pawn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\white-knight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\white-king.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\white-bishop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\black-rook.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\black-queen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\black-pawn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\black-knight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\black-king.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\black-bishop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Boards\Blackboard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Boards\Whiteboard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\black-bishop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\black-king.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\black-pawn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\black-knight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\black-queen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\black-rook.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\white-bishop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\white-king.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\white-knight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\white-pawn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\white-queen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2D\Peices\white-rook.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+    <None Include="sounds\.DS_Store" />
+    <None Include="SDL2_image.dll" />
+    <None Include="assimp-vc143-mt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\achievement.mp3" />
+    <Media Include="sounds\capture.mp3" />
+    <Media Include="sounds\castle.mp3" />
+    <Media Include="sounds\correct.mp3" />
+    <Media Include="sounds\click.mp3" />
+    <Media Include="sounds\decline.mp3" />
+    <Media Include="sounds\drawoffer.mp3" />
+    <Media Include="sounds\event-end.mp3" />
+    <Media Include="sounds\event-start.mp3" />
+    <Media Include="sounds\event-warning.mp3" />
+    <Media Include="sounds\game-draw.mp3" />
+    <Media Include="sounds\game-end.mp3" />
+    <Media Include="sounds\game-lose.mp3" />
+    <Media Include="sounds\game-lose-long.mp3" />
+    <Media Include="sounds\game-start.mp3" />
+    <Media Include="sounds\game-win.mp3" />
+    <Media Include="sounds\game-win-long.mp3" />
+    <Media Include="sounds\illegal.mp3" />
+    <Media Include="sounds\incorrect.mp3" />
+    <Media Include="sounds\lesson-fail.mp3" />
+    <Media Include="sounds\lesson-pass.mp3" />
+    <Media Include="sounds\move-check.mp3" />
+    <Media Include="sounds\move-opponent.mp3" />
+    <Media Include="sounds\move-self.mp3" />
+    <Media Include="sounds\notification.mp3" />
+    <Media Include="sounds\notify.mp3" />
+    <Media Include="sounds\premove.mp3" />
+    <Media Include="sounds\promote.mp3" />
+    <Media Include="sounds\puzzle-correct.mp3" />
+    <Media Include="sounds\puzzle-correct-2.mp3" />
+    <Media Include="sounds\puzzle-wrong.mp3" />
+    <Media Include="sounds\scatter.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="models\knight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
