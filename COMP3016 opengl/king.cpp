@@ -1366,6 +1366,27 @@ int main() {
                          isSelected);
         }
 
+        std::vector<float> signatureQuadVertices = {
+            // positions          // colors (red)
+            -200.0f,  150.0f, 0.0f,   1.0f, 0.0f, 0.0f,  // top left
+             200.0f,  150.0f, 0.0f,   1.0f, 0.0f, 0.0f,  // top right
+             200.0f, -150.0f, 0.0f,   1.0f, 0.0f, 0.0f,  // bottom right
+            -200.0f, -150.0f, 0.0f,   1.0f, 0.0f, 0.0f   // bottom left
+        };
+
+        std::vector<unsigned int> signatureQuadIndices = {
+            0, 1, 2,   // first triangle
+            2, 3, 0    // second triangle
+        };
+
+        GLuint signatureVAO = setupVAO(signatureQuadVertices, signatureQuadIndices);
+
+        // Render signature quad
+        float signatureModel[16];
+        setIdentityMatrix(signatureModel);
+        translateMatrix(signatureModel, 370.0f, 200.0f, -500.0f);
+        renderPiece(shaderProgram, signatureVAO, signatureModel, signatureQuadIndices.size());
+
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

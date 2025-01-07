@@ -190,6 +190,7 @@
     <Image Include="assets\black-queen.png" />
     <Image Include="assets\black-rook.png" />
     <Image Include="assets\Blackboard.png" />
+    <Image Include="assets\Signature.png" />
     <Image Include="assets\white-bishop.png" />
     <Image Include="assets\white-king.png" />
     <Image Include="assets\white-knight.png" />

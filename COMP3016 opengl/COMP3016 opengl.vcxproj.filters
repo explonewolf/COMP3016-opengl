@@ -164,6 +164,9 @@
     <Image Include="assets\2D\Peices\white-rook.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="assets\Signature.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="SDL2.dll" />
