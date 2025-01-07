@@ -56,13 +56,14 @@
 
 ## Evaluation
 ### Achievements
-- Created a functional 3D chess board
+- Created a functional 3D chessboard
 - Implemented texture rendering for signature display
 
 ### Future Improvements
 1. Better separation of concerns in code structure
 2. Implementation of actual chess rules
 3. Enhanced visual effects and animations
+4. better rending of objects
 
 ### Personal Learning
 - Gained practical experience with OpenGL
