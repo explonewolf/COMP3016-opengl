@@ -1,5 +1,5 @@
 # OpenGL Chess Game
-
+3D models - https://github.com/stevenalbert/3d-chess-opengl/tree/master/model
 ## Dependencies Used
 - OpenGL: Core graphics API for rendering
 - GLFW: Window management and OpenGL context creation
