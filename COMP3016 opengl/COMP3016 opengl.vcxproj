@@ -119,14 +119,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files\Assimp\include;C:\Users\firem\Downloads\glad\include;C:\Users\firem\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\firem\Downloads\SDL2_image\SDL2_image-2.8.4\include;C:\Users\firem\Downloads\SDL2-devel-2.30.9-VC\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Public\OpenGL\Assimp\include;C:\Users\Public\OpenGL\glad\include;C:\Users\Public\OpenGL\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Program Files\Assimp\lib\x64;C:\Users\firem\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2019;C:\Users\firem\Downloads\SDL2-devel-2.30.9-VC\SDL2\lib\x64;C:\Users\firem\Downloads\SDL2_image\SDL2_image-2.8.4\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;glfw3.lib;user32.lib;gdi32.lib;shell32.lib;opengl32.lib;assimp-vc143-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Public\OpenGL\Assimp\lib\x64;C:\Users\Public\OpenGL\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;user32.lib;gdi32.lib;shell32.lib;opengl32.lib;assimp-vc143-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EntryPointSymbol>
       </EntryPointSymbol>
     </Link>

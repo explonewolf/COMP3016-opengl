@@ -277,7 +277,7 @@ GLuint compileShaders() {
 
 // Setup VAO
 GLuint setupVAO(const std::vector<float>& vertices, const std::vector<unsigned int>& indices) {
-    std::cout << "Setting up VAO..." << std::endl;
+   // std::cout << "Setting up VAO..." << std::endl;
     GLuint VAO, VBO, EBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
